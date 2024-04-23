@@ -39,7 +39,7 @@ Commands and installations:
 
 ![execution 1](https://github.com/Sunith12/Dynamic-Web-Crawling-and-Text-Search-with-Python-and-Flask/assets/167843018/c86237af-7f98-4bce-ac7d-410ff219f0d6)
 
-![execution 2](https://github.com/Sunith12/Dynamic-Web-Crawling-and-Text-Search-with-Python-and-Flask/assets/167843018/20db681d-e8cc-4731-a6da-7174d748b968
+![execution 2](https://github.com/Sunith12/Dynamic-Web-Crawling-and-Text-Search-with-Python-and-Flask/assets/167843018/15dcd86e-118c-4a14-8f75-44720f281a70)
 
 ![execution 3](https://github.com/Sunith12/Dynamic-Web-Crawling-and-Text-Search-with-Python-and-Flask/assets/167843018/ff36f360-248a-4bfd-9382-6ecadc63f2fa)
 
