@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #5c67f2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #5058e5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Search Results</h1>
+    <h2>Query: {{ response['original_query'] }}</h2>
+    <h3>Expanded Query: {{ response['expanded_query']|join(', ') }}</h3>
+    <h4>Top Results:</h4>
+    <ul>
+        {% for result in response['results'] %}
+        <li>Document {{ result }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">New Search</a>
+</body>
+
+</html>
